@@ -1,0 +1,14 @@
+# Keep the local contributor guide and any README out of the public repository.
+/AGENTS.md
+/README.md
+
+# Never commit local secrets or credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/secrets/
+/credentials/
